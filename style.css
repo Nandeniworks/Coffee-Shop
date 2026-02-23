@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4efe9;
+    font-family: 'Poppins', sans-serif;
+    color: #3b2a22;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #6b3e2e;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.contact-btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: #6b3e2e;
+    cursor: pointer;
+}
+
+
+.hero {
+    margin: 40px 60px;
+    height: 500px;
+    background: url('pic5.jpg') center/cover no-repeat;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    color: white;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin: 20px 0;
+}
+
+.hero-text button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f4efe9;
+    color: #3b2a22;
+    cursor: pointer;
+}
+
+/* Coffee Grid */
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 40px 60px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* About */
+.about {
+    display: flex;
+    gap: 40px;
+    margin: 60px;
+    align-items: center;
+}
+
+.about img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.about-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.about-text p {
+    margin: 20px 0;
+}
+
+.stars {
+    color: #6b3e2e;
+    font-size: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6b3e2e;
+    color: white;
+    margin-top: 40px;
+}
