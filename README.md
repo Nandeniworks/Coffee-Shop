@@ -35,7 +35,7 @@ To view this project locally:
 
 ```bash
 git clone https://github.com/Nandeniworks/Coffee-Shop
-cd Coffee Shop
+cd Coffee-Shop
 ```
 
 ---
